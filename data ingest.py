@@ -15,5 +15,5 @@ session = SparkSession.builder \
 
 
 df2 = spark.read.option("header",True) \
-    .csv("/tmp/resources/zipcodes.csv")
+    .csv("/tmp/resources/trips.csv")
 
